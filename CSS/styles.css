@@ -1,0 +1,157 @@
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+/*
+100% in terms of FONT SIZE is = 16px
+ALSO - we can use "em" as a FONT SIZE, 1em = 16px
+em function will be added on top of parent em value therefore we have to use Rem
+rem - root em will be independed value!
+*/
+h1 {
+  color: #66BFBF;
+  font-size: 5.6rem;
+  margin: 50px auto 0px auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-weight: normal;
+  color: #66BFBF;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E ;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+hr {
+  width: 5%;
+  margin: 100px auto 100px auto;
+  color: #d2d3c9;
+  border-top: 7px dotted;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+
+}
+.middle-container {
+  margin: 100px auto 100px auto;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profile {
+  width: 35%;
+  margin: auto;
+}
+.skill-row {
+  text-align: left;
+  line-height: 2;
+  width: 50%;
+  margin:100px auto 100px auto;
+}
+
+.portrait-img {
+  width: 40%;
+  height: 40%;
+}
+
+.Project-Management-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+/*If we want a part of text not to float next to image we can target it by using
+"clear" so if we want skill description not floating we say: .skill-description { clear: left;}*/
+
+.WebDev-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  width: 35%;
+  margin: auto;
+
+}
+
+.bottom-container {
+  margin: 100px auto 0px auto;
+  background-color: #66BFBF;
+  height: 7rem;
+  padding-top: 20px;
+  word-spacing: 20px;
+}
+
+
+
+.btn {
+  margin-top: 2.5rem;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 1rem;
+   font-weight: 600;
+   padding: 2%;
+   background-color: #66BFBF;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.footer-link-1 {
+  color: #0e76a8;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.footer-link-2 {
+  color: #54B948;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+.credits {
+  color: #EAF6F6 ;
+  font-size: 0.7rem;
+  margin-top: 35px;
+  word-spacing: normal;
+}
